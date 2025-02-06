@@ -1,0 +1,65 @@
+h2 {
+    font-size: 25px;
+  }
+
+  h2:hover{
+    background-color: red;
+  }
+
+  .green{
+    color: forestgreen;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th {
+    border: 1px solid #d2d2d2;
+    color: #161616;
+    background-color: #d2d2d2;
+  }
+  td {
+    border: 1px solid #d2d2d2;
+    padding: 5px;
+  }
+
+  .userTable thead tr th{
+    color: red;
+  }
+  .userTable tbody tr td{
+    color: green;
+  }
+  .userTable.fontSize thead tr th{
+    font-size: 30px;
+  }
+
+  .list li{
+    color: red;
+  }
+
+  .list li:first-child{
+    color: green;
+  }
+
+  .list li:last-child{
+    color: green;
+  }
+  .list li:nth-child(4){
+    color: blue;
+  }
+  .list li:nth-child(2){
+    color: rgb(239, 247, 0);
+  }
+  
+
+  .userTable tbody tr:hover{
+    background-color: aqua;
+  }
+
+  h2:hover{
+    background-color: blue;
+  }
+
+ 

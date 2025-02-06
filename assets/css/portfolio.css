@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+  background-color: #20242d;
+  color: white;
+  margin: 0;
+overflow-x: hidden;
+}
+
+* {
+  font-family: "Roboto", serif;
+  font-style: normal;
+}
+
+.app-menu li {
+  display: inline-block;
+}
+
+.app-menu li a {
+  color: white;
+  text-decoration: unset;
+  padding: 10px;
+  font-weight: 800;
+}
+
+.app-menu li a:hover {
+  color: #01eefe;
+}
+
+.header-continer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.continer {
+  margin: 0 auto;
+  width: 85%;
+}
+
+.profile-subtitle{
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+.profile-title{
+  font-size: 4rem;
+  margin: 10px 0;
+}
+
+.text-primary{
+  color: #01eefe;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.profile-content{
+  height: calc(100vh - 81px)
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.profile-bg{
+  background-color:#01eefe; 
+
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
+.night-black-bg{
+  background-color: #323846;
+}
+
+.mb-0{
+  margin-bottom: 0;
+}
+.mt-0{
+  margin-top: 0;
+}
+
+.about-subtitle{
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+
+}
+.about-title{
+  font-size: 3.5rem;
+}
+
+.progres-bar{
+  background-color: #d2d2d2;
+  height: 10px;
+  border-radius: 12px;
+  margin-top: .9rem;
+}
+.pt-5{
+  padding-top: 2rem;
+}
+
+.mb-5{
+  margin-bottom: 2.5rem;
+
+}
+.skill-continer {
+  margin-bottom: 2rem;
+}
+.progres-bar-value{
+  background-color: #01eefe;
+  border-radius: 12px;
+  height: 100%;
+}
+
+.skill-title{
+  font-size: 3rem;
+  text-align: center;
+}
+
+.project-card{
+  width: 31.33%;
+  margin-bottom: 2rem;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* (105% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.project-card img{
+  width: 100%;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+
+.contact-input{
+  width: 300px;
+  height: 31px;
+  border-radius: 7px;
+  font-size: 14px;
+  padding: 10px 12px;
+  border: 1px solid #20242d;
+  background: #323846;
+  color: white;
+}
+.contact-form-control{
+  margin-bottom: 1rem;
+}
+.contact-form-control label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form-control .contact-input{
+  width: 500px;
+  height: 31px;
+  border-radius: 7px;
+  font-size: 14px;
+  padding: 10px 12px;
+  border: 1px solid #20242d;
+  background: #323846;
+  color: white;
+}
+
+.contact-form-control textarea.contact-input{
+  height: 80px;
+}
+
+.contact-btn{
+  padding: 10px 12px;
+  border: 0;
+  background: #00eeff;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  min-width: 104px;
+}
